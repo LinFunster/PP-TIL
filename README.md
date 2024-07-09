@@ -1,3 +1,3 @@
-We plan to open-source the code after the paper has been accepted. 
+The code is coming soon.
 
 
