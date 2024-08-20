@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 import sys
 from utils.Kmeans import K_Means
 from utils.train_utils import fixed_seed,project_to_frenet_frame
-from model.LfD_IRL import cal_traj_features
+from model.L_IRL import cal_traj_features
 # from utils.train_utils import *
 # 简化：把所有数据当成一个batch来处理
 

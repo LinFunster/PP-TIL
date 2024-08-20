@@ -11,7 +11,7 @@ import torch.nn.functional as F
 # from utils.train_utils import *
 from model.Pipeline import Predictor
 from torch.utils.data import DataLoader
-from model.LfD_IRL import *
+from model.L_IRL import *
 from utils.test_utils import *
 from utils.train_utils import fixed_seed, DrivingData
 from dataset_style import convert2np,get_action_np
