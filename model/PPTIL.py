@@ -49,17 +49,6 @@ class RewardFunctionRaw(nn.Module):
 
         return cost_function_weights
 
-class RewardFunction(nn.Module):
-    def __init__(self, feature_len=9): # 0.1s / step 
-        super(RewardFunction, self).__init__()
-        self.cost = nn.Sequential(nn.Linear(1, 128), nn.ReLU(), nn.Linear(128, feature_len), nn.Softmax(dim=-1))
-
-    def forward(self):
-        dummy = torch.ones(1, 1).to(self.cost[0].weight.device)
-        cost_function_weights = self.cost(dummy)
-
-        return cost_function_weights
-
 class RewardFunction2(nn.Module):
     def __init__(self, feature_len=9): # 0.1s / step 
         super(RewardFunction2, self).__init__()

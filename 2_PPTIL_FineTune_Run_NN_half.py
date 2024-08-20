@@ -11,7 +11,7 @@ from utils.train_utils import *
 from torch.utils.data import DataLoader
 from model.DataManager import *
 import copy
-from model.L_IRL import *
+from model.PPTIL import *
 from model.Pipeline import Predictor,Pipeline # , bicycle_model_train
 from dataset_style import convert2np,get_action_np
 

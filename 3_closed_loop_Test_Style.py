@@ -6,7 +6,7 @@ import pandas as pd
 import tensorflow as tf
 from utils.simulator import *
 from utils.test_utils import *
-from model.L_IRL import *
+from model.PPTIL import *
 from model.Pipeline import Predictor
 from waymo_open_dataset.protos import scenario_pb2
 import time
