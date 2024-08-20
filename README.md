@@ -19,7 +19,7 @@ Select the dataset folder as follows：
 
 `waymo_open_dataset_motion_v_1_2_0/uncompressed/scenario/training_20s`
 
-We use serial numbers 0-799 as the training set, and 800-999 as the test set.
+We employ serial numbers ranging from 0 to 799 as the training set and those from 800 to 999 as the test set.
 
 ### Contact
 
