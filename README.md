@@ -6,7 +6,7 @@ This repository contains the official PyTorch implementation of our paper:
 
 ### News
 
-- **[20/08/2024]**: Code & models are released!
+- **[20/08/2024]**: Our code is released!
 - **[04/08/2024]**: We release the PP-TIL paper on [arxiv](https://arxiv.org/pdf/2407.18569)!
 
 - **[30/06/2024]**: PP-TIL is accepted to IROS 2024🎉!
