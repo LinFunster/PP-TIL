@@ -30,11 +30,13 @@ If you have any questions or suggestions about this repo, please feel free to co
 If you find PP-TIL useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
 ```BibTeX
-@article{lin2024pp,
+@inproceedings{lin2024pp,
   title={PP-TIL: Personalized Planning for Autonomous Driving with Instance-based Transfer Imitation Learning},
   author={Lin, Fangze and He, Ying and Yu, Fei},
-  journal={arXiv preprint arXiv:2407.18569},
-  year={2024}
+  booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={5136--5143},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
